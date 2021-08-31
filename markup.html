@@ -1,0 +1,78 @@
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="root">
+  <div class="c-card" style="height: 100%; border-top: 1rem solid rgb(0, 88, 168);">
+    <div class="c-card__header">
+      <h4 style="display: block; margin-left: 1rem; margin-bottom: 0px;">
+      <strong>Product Info</strong>
+      </h4>
+    </div> //
+    <div class="c-card__body"><div class="row" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="c-form-group">
+          <label for="name-selectized">Select Tool</label>
+          <div class="react-selectize default root-node simple-select c-selectpicker">
+            <input type="hidden" name="name" value="4">
+            <div class="react-selectize-control">
+              <div class="react-selectize-search-field-and-selected-values">
+                <div class="value-wrapper">
+                  <div class="simple-value">
+                    <span>Bobcat S590</span>
+                  </div>
+                </div>
+                <input type="input" class="resizable-input" value="" style="width: 2px;">
+              </div><div class="react-selectize-reset-button-container">
+              <svg class="react-selectize-reset-button" focusable="false" style="width: 8px; height: 8px;"><path d="M0 0 L8 8 M8 0 L 0 8"></path>
+              </svg>
+            </div>
+              <div class="react-selectize-toggle-button-container">
+                <svg class="react-selectize-toggle-button" focusable="false" style="width: 10px; height: 8px;"><path d="M0 1 L5 6 L10 1 Z">
+                </path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="c-form-group">
+          <label class="c-form-label">Units</label>
+          <div class="c-select">
+            <div class="c-select__dropdown">
+              <select id="unit" name="units" class="c-select__control">
+                <option>1</option></select><span class="c-select__toggle">
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="c-form-group"><label class="c-form-label">Rental Period</label>
+          <input data-id="rangePlugin" class="c-form-control dates flatpickr-input" placeholder="From - To" value="2021-06-21 to 2021-06-22" type="hidden">
+          <input class="c-form-control dates form-control input" placeholder="From - To" tabindex="0" type="text" readonly="readonly">
+          <input type="hidden" id="pickDate" name="from" value="2021-06-21">
+          <input type="hidden" id="dropDate" name="to" value="2021-06-22">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="c-form-group"><label class="c-form-label" for="pick">Pick Up</label>
+          <div>
+            <input id="pick_v" class="c-form-control pick flatpickr-input" placeholder="Pick Up" autocomplete="off" value="" type="text" readonly="readonly">
+            <input type="hidden" id="pickTime" name="pick" value="7:30 AM">
+          </div><label class="c-form-label" for="drop">Drop Off</label>
+          <div><input id="drop_v" class="c-form-control drop flatpickr-input" placeholder="Drop Off" autocomplete="off" required="" value="" type="text" readonly="readonly">
+            <input id="dropTime" type="hidden" name="drop" value="7:30 AM">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="c-form-group">
+          <label class="c-form-label" for="amount">Amount</label>
+          <input id="amount" name="amount" class="c-form-control amount" value="200.00">
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="c-card__footer">
+      <input type="button" class="c-button c-button--block c-button--primary" name="add_row" value="Add Row" style="margin-bottom: 0px;">
+    </div>
+  </div>
+</div>
